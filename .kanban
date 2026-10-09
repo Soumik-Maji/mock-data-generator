@@ -1,0 +1,405 @@
+{
+  "lists": [
+    {
+      "id": "845f4708-40de-4a58-a7bc-9cda6684c9dd",
+      "title": "Far ahead todo",
+      "cards": [
+        {
+          "id": "5ce13dd6-e189-41b0-8c42-6f70425f71dc",
+          "listId": "845f4708-40de-4a58-a7bc-9cda6684c9dd",
+          "title": "a warehouse table having the products",
+          "description": "",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        },
+        {
+          "id": "da69c06d-8870-4900-9da0-fc0192f35724",
+          "listId": "845f4708-40de-4a58-a7bc-9cda6684c9dd",
+          "title": "various makers of different products",
+          "description": "",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        },
+        {
+          "id": "e8ba6c31-ee1b-4664-9712-f9e93677e189",
+          "listId": "845f4708-40de-4a58-a7bc-9cda6684c9dd",
+          "title": "a way to ship products to warehouses",
+          "description": "",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        },
+        {
+          "id": "36db71cb-b893-47ce-8362-82f14418193a",
+          "listId": "845f4708-40de-4a58-a7bc-9cda6684c9dd",
+          "title": "employees table",
+          "description": "",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        },
+        {
+          "id": "cb43585c-0ceb-4367-b4ab-92367e6b45dc",
+          "listId": "845f4708-40de-4a58-a7bc-9cda6684c9dd",
+          "title": "department table",
+          "description": "",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        },
+        {
+          "id": "f8bf3fda-9ae0-4d18-873e-068e1f6b4e85",
+          "listId": "845f4708-40de-4a58-a7bc-9cda6684c9dd",
+          "title": "delivery vehicle details",
+          "description": "",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        },
+        {
+          "id": "0b75d9d6-8b64-4cac-b6a0-e2bb9cb62a93",
+          "listId": "845f4708-40de-4a58-a7bc-9cda6684c9dd",
+          "title": "delivery vehicle realtime statistics",
+          "description": "",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": "b0814b12-de9b-42e4-901c-fbcd8bb06a41",
+      "title": "Add-ons",
+      "cards": [
+        {
+          "id": "b36e9156-8a29-4997-8f4a-79f01b83a55a",
+          "listId": "b0814b12-de9b-42e4-901c-fbcd8bb06a41",
+          "title": "MinIO SDK for communicating with RustFS object storage",
+          "description": "",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": "cf95f8ee-8c38-4001-a361-971f3e99cbfb",
+      "title": "Reminder until end",
+      "cards": [
+        {
+          "id": "15b7f067-e96d-4114-91ed-ad013ecc5bc8",
+          "listId": "cf95f8ee-8c38-4001-a361-971f3e99cbfb",
+          "title": "Use sqlite connection carefully",
+          "description": "Always use sqlite connection carefully. remember to close connection & commit after a DML transaction.",
+          "labels": [],
+          "checkboxes": [
+            {
+              "id": "19404a5a-007e-4c18-9395-2d98778d2251",
+              "title": "use \"with\" when running transactional queries. ",
+              "checked": false
+            },
+            {
+              "id": "20e72ea0-f841-4326-8fac-7c5d7924a011",
+              "title": "use \"try\", \"catch\", \"finally\" in main or creator caller place to close off connection in case of crash.",
+              "checked": true
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": "0688537e-bc71-4ca1-9cd1-3b4e9614cc0d",
+          "listId": "cf95f8ee-8c38-4001-a361-971f3e99cbfb",
+          "title": "CHECK CLAUDE, CHATGPT, PRESONAL NOTES TO FIND OUT WHAT OTHER THINGS NEED TO BE DONE",
+          "description": "FEW THINGS LEFT MENTIONED IN TASK LIST",
+          "labels": [],
+          "checkboxes": [
+            {
+              "id": "85ab83c4-228f-4087-8d52-fc6c9cc46f96",
+              "title": "forms (full, CDC, file streaming, inc)",
+              "checked": false
+            },
+            {
+              "id": "a5ae738f-564e-41c5-9cf6-129d2b38107b",
+              "title": "formats (MinIO, SFTP, API)",
+              "checked": false
+            },
+            {
+              "id": "7a10f936-d50c-4abd-b78c-3b3270234826",
+              "title": "export data format (csv, json, gzip)",
+              "checked": false
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": "dea1cade-01e3-4fdc-a181-9706a6d408b2",
+          "listId": "cf95f8ee-8c38-4001-a361-971f3e99cbfb",
+          "title": "add ON DELETE CASCADE for every foreign keys",
+          "description": "",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": "e214c13d-4dd5-47a9-95c5-ec5e89db2676",
+      "title": "To Do",
+      "cards": [
+        {
+          "id": "dd9c7420-db41-4150-b35f-ec09b7e1c337",
+          "listId": "e214c13d-4dd5-47a9-95c5-ec5e89db2676",
+          "title": "implement table class from BaseEntity",
+          "description": "check out the JSONs from old dir & create all these classes inheriting from BaseEntity.\nALWAYS USE SINGELTON FOR THESE CHILD TABLE CLASSES.",
+          "labels": [],
+          "checkboxes": [
+            {
+              "id": "82cb37d6-5fbc-4e77-9f59-f2c2acee8fd4",
+              "title": "customers",
+              "checked": false
+            },
+            {
+              "id": "82f9b0c8-b699-4e05-82e6-34c5d825297b",
+              "title": "products",
+              "checked": false
+            },
+            {
+              "id": "64ba5328-e467-4613-851a-b4f46e5aafad",
+              "title": "orders",
+              "checked": false
+            },
+            {
+              "id": "7971f30c-4ea4-46c5-9a9b-290d980898a5",
+              "title": "deliveries",
+              "checked": false
+            },
+            {
+              "id": "404164b2-49c1-4b5b-865b-1c7a653a67e1",
+              "title": "order_events",
+              "checked": false
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": "d6b3d124-45d1-4ef7-8f33-3e8db94aac8f",
+          "listId": "e214c13d-4dd5-47a9-95c5-ec5e89db2676",
+          "title": "implement column class",
+          "description": "write a column class which can efficiently accept column names, data types & functions to generate those column data",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        },
+        {
+          "id": "a8f0edcb-a906-4e27-9f47-32968511e9e6",
+          "listId": "e214c13d-4dd5-47a9-95c5-ec5e89db2676",
+          "title": "CDC writer",
+          "description": "function to get the sql actions happening from table classes & create a CDC for export",
+          "labels": [],
+          "checkboxes": [
+            {
+              "id": "8e3ce5b8-51df-4026-b268-65b2f7ee4919",
+              "title": "parse incoming changes",
+              "checked": false
+            },
+            {
+              "id": "3dc83815-5fa9-45af-9960-79e5847f1b47",
+              "title": "convert them to a row format",
+              "checked": false
+            },
+            {
+              "id": "8da13d96-a894-48ec-9aaa-b9b8f32cc120",
+              "title": "write to same sqlite in a dedicated CDC table",
+              "checked": false
+            },
+            {
+              "id": "b4817d1d-6d21-4e51-b49c-6e6f8a38bf07",
+              "title": "all changes go into same table",
+              "checked": false
+            },
+            {
+              "id": "6afc82b7-bb2d-43fe-991a-e2f4fa11fec8",
+              "title": "export & flush CDC table regularly",
+              "checked": false
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": "acd696e6-6229-4ab9-89ad-e7b959452ea4",
+          "listId": "e214c13d-4dd5-47a9-95c5-ec5e89db2676",
+          "title": "write a comprehensive logger class",
+          "description": "THIS SHOULD BE SINGLETON CLASS",
+          "labels": [],
+          "checkboxes": [
+            {
+              "id": "3f206b2e-da2e-4e2c-9638-9508edd7e4d3",
+              "title": "log current table schema",
+              "checked": false
+            },
+            {
+              "id": "8fb5541c-21ce-4dd2-a72c-93fbb8d0f3f6",
+              "title": "log table count",
+              "checked": false
+            },
+            {
+              "id": "4e9541b3-2afd-4141-bda0-7292729b2b9d",
+              "title": "log current action",
+              "checked": false
+            },
+            {
+              "id": "1f9a2b09-1f8d-4b2b-ab5d-cde3915f3b95",
+              "title": "log errors",
+              "checked": false
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": "fc3e50f1-3a71-4928-a345-6425e87d601a",
+          "listId": "e214c13d-4dd5-47a9-95c5-ec5e89db2676",
+          "title": "export as quoted csv zipped",
+          "description": "read sqlite to - extarct header using PRAGMA table_info > read all requried data > write them to csv.gzip reading a few chunks at a time. after done export.",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        },
+        {
+          "id": "bdf9a834-ca8b-4a1f-9274-1ec9c36fb819",
+          "listId": "e214c13d-4dd5-47a9-95c5-ec5e89db2676",
+          "title": "schema migration",
+          "description": "add some type of schema migration",
+          "labels": [],
+          "checkboxes": [
+            {
+              "id": "db8e3a49-711e-494c-b78e-b3f45793b295",
+              "title": "try manual migration",
+              "checked": false
+            },
+            {
+              "id": "59268fd8-1c9a-45c1-9343-5497cafecd66",
+              "title": "try automatic migration with code (of course with some hard coded constraints)",
+              "checked": false
+            }
+          ],
+          "comments": []
+        },
+        {
+          "id": "54d1d0be-2b0f-4887-ba5e-e485048064d0",
+          "listId": "e214c13d-4dd5-47a9-95c5-ec5e89db2676",
+          "title": "Write better tests for all codes",
+          "description": "",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": "918285ab-1408-4ada-a36f-b6386918a1a5",
+      "title": "Doing",
+      "cards": [
+        {
+          "id": "b6e99470-f18b-4369-8698-a54c3345878c",
+          "listId": "918285ab-1408-4ada-a36f-b6386918a1a5",
+          "title": "add a BaseEntity class",
+          "description": "BaseEntity should handle most of the commonly used thing for CRUD",
+          "labels": [],
+          "checkboxes": [
+            {
+              "id": "3f5eed66-3738-44ff-b3b6-6cf3eeff8590",
+              "title": "create table",
+              "checked": true
+            },
+            {
+              "id": "b98ab813-4dd5-48f3-b271-fcc06d447b98",
+              "title": "show schema",
+              "checked": true
+            },
+            {
+              "id": "7321715d-6298-45a4-a40a-91e73b6bf378",
+              "title": "return row count",
+              "checked": true
+            },
+            {
+              "id": "77960fcc-974c-43d2-a0b7-1b7e27d2453c",
+              "title": "return a random row",
+              "checked": true
+            },
+            {
+              "id": "c48e5527-3607-4109-a9f7-8af16bf6f88e",
+              "title": "return data for where clause",
+              "checked": false
+            },
+            {
+              "id": "14b180c7-d218-457a-8477-2920b472e2c3",
+              "title": "run custom queries",
+              "checked": false
+            },
+            {
+              "id": "6ff509c0-8244-4bf2-8ead-bd37c827d63e",
+              "title": "generate a random looking text PK based on rowid",
+              "checked": false
+            }
+          ],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": "75028919-29f0-480c-8406-7363d260a1ee",
+      "title": "Done",
+      "cards": [
+        {
+          "id": "5ccc295a-03b5-4ae7-89f4-a41d53d946b8",
+          "listId": "75028919-29f0-480c-8406-7363d260a1ee",
+          "title": "sqlite connector",
+          "description": "sqlite connector with WAL, timeout, Row on read, FK, custom data types\ncustom data types in task list",
+          "labels": [],
+          "checkboxes": [
+            {
+              "id": "8b00270f-a3b5-46fb-bc80-967b824e96b3",
+              "title": "date",
+              "checked": true
+            },
+            {
+              "id": "f519f116-29e6-4280-88fc-6d0599195b7b",
+              "title": "timestamp",
+              "checked": true
+            },
+            {
+              "id": "5e328d1c-b174-4aaa-8397-4aa8eff27013",
+              "title": "array",
+              "checked": true
+            },
+            {
+              "id": "e26c222c-5fc7-45f7-baf8-59559747aea4",
+              "title": "json",
+              "checked": true
+            },
+            {
+              "id": "f5799b75-c4dc-4816-8df8-335a4af911e7",
+              "title": "decimal",
+              "checked": true
+            },
+            {
+              "id": "2aae683f-0b90-47fa-a1eb-4165b8387013",
+              "title": "boolean",
+              "checked": true
+            }
+          ],
+          "comments": []
+        }
+      ]
+    }
+  ],
+  "archive": {
+    "lists": [],
+    "cards": []
+  },
+  "settings": {
+    "labels": []
+  }
+}

@@ -1,0 +1,12 @@
+# Virtual environment
+.venv
+
+# Temporary custom directories I create
+.pycache_removed
+.test_store
+.uploads
+
+# Python cache dirs
+*.py[cod]
+*$py.class
+**/__pycache__/
