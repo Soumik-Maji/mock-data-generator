@@ -18,6 +18,7 @@ find . -type f \
   -not -name ".kanban" \
   -not -name "LICENSE" \
   -not -name "README.md" \
+  -not -name "requirements.txt" \
   -not -path "./testing/*" \
   -not -path "./$TARGET_DIR/*" \
   -not -name "*.sh" | while read -r file; do
